@@ -11,7 +11,7 @@ class Barchart extends HTMLElement {
 
   connectedCallback() {
 
-    const margin = {top: 0, right: 10, bottom: 25, left: 35};
+    const margin = {top: 0, right: 10, bottom: 50, left: 50};
     const width = 200 - margin.left - margin.right;
     const height = 200 - margin.top - margin.bottom;
 
